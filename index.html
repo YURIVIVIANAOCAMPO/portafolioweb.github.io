@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Desarrolladora Web</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/cohete.ico">
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+               
+                    <h1>@ViviOcaba</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/yury-viviana-ocampo-baracaldo-a1581785/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/Yurivivioca"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ingyury/"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span> Desarrolladora</span>, Web</h2>
+                <p class="descripcion">Profesional con amplia experiencia en entornos dinámicos y exigentes. </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Yury Viviana</span> </h2>
+            <h3>Desarrolladora Web</h3>
+            <div>
+                <p class="justify-text">Desarrolladora de software con amplia experiencia en entornos dinámicos y exigentes. Me destaco por mi efectividad para el desarrollo de aplicaciones y funcionalidades web, y la ejecución de proyectos dentro de los tiempos y el presupuesto estipulado,con habilidades probadas para realizar pruebas y mejoras de rendimiento, actualización de software y desarrollo de nuevas funcionalidades. 
+                Deseo contribuir a una empresa dinámica y en expansión.</p>
+            </div>
+            <a href="Documento/Test.pdf">Descarga el Test de mi perfil</a>
+            <a href="Documento/CV_Desarrollo_Web.pdf">Descarga mi CV</a>
+
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                </ul>
+                <p>Diseño sitios web que cautivan. Crea una presencia en línea impactante.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Programación PHP</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Backend</li>
+                    <li>MVC</li>
+                </ul>
+                <p>Impulsa tu proyecto web con el servicio de Desarrollo en PHP y API en MVC. Desarrollo soluciones a medida, con código limpio y escalable. lleva tu proyecto al siguiente nivel.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Base de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Diseño, desarrollo y Optimización</li>
+                </ul>
+                <p>¡Confía en mí para gestionar tus datos! Diseño, optimizo y mantengo bases de datos seguras y eficientes. ¡Qué esperas para potenciar tu negocio!</p>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Reporting Data</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Desarrollo Web</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Analisis de requerimientos y pruebas QA</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Dash1.jpg" alt="">
+                <div class="info">
+                    <h4>Dashboard - Excel</h4>
+                    <p>Reporting Data</p>
+                    <a href="Documento/EjemploTrabajoDashboard.xlsx">Descargar Excel</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/dash.jpg" alt="">
+                <div class="info">
+                    <h4>Dashboard - Excel</h4>
+                    <p>Reporting Data</p>
+                    <a href="Documento/Dashboard2.xlsx">Descargar Excel</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/dash2.jpg" alt="">
+                <div class="info">
+                    <h4>Dashboard Web</h4>
+                    <p>Diseño de dashboard inicial en una ERP</p>
+                    <a href="minpyme.html">Blog Informativo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>&copy; 2023 Yury Viviana Ocampo. Todos los derechos reservados.</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/yury-viviana-ocampo-baracaldo-a1581785/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/Yurivivioca"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ingyury/"><i class="fa-brands fa-instagram-square"></i></a>
+                
+   
+        <h2>Contacto</h2>
+        <div>
+          <p><strong>Email:</strong> ingyury260@gmail.com</p>
+          <p><strong>Teléfono:</strong> +573174089448</p>
+        </div>
+        </div>
+        
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
